@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import FetchingDataView from '../views/FetchingDataView.vue'
+import SignUpView from '../views/SignUpView.vue'
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/fetchingData',
     name: 'fetchingData',
     component: FetchingDataView
+  },
+  {
+    path: '/signUp',
+    name: 'signUp',
+    component: SignUpView
   }
 ]
 
